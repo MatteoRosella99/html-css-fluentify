@@ -5,6 +5,7 @@
 }
 body{
   background-color: #334f9c;
+  font-family: 'Saira Semi Condensed', sans-serif;
 }
 nav{
   margin: auto;
@@ -12,8 +13,8 @@ nav{
   height: 80px;
 }
 header{
-  margin-top: 5px;
-  background-color: #334f9c;
+  background-image: url(vecchi.jpg);
+  background-size:cover;
 }
 header:after{
   content:"";
@@ -28,32 +29,32 @@ header:after{
 .inizio{
   width: 50%;
   height:400px;
-  background-color: green;
   float: left;
 }
 .sec{
-  background-color: red;
+  background-color: white;
   width: 100%;
-  height: 400px;
+  height: 650px;
+}
+.sec:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 article{
   height: 400px;
   width: 70%;
   margin: auto;
 }
-article::after{
-
-}
 .immagine{
   float: right;
   width: 50%;
   height: 400px;
-  background-image: url(/bundles/fluentifypublic/images/r4b/01/oldman.png);
 }
 .prefot{
   width: 100%;
   height: 150px;
-  background-color: grey;
+  background-color: #002d70;
 }
 footer{
   width: 100%;
@@ -72,8 +73,107 @@ footer{
 }
 .due{
   float: left;
-
 }
 .tre{
   float: right;
+
+}
+#logo{
+  padding-top: 8px;
+}
+.acca1{
+  font-size: 48px;
+  padding-top: 65px;
+}
+.navig a{
+  text-decoration: none;
+  color: white;
+}
+h1{
+  color: white;
+}
+.login{
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.0);
+}
+.bottoni{
+  padding: 8px;
+  border-radius: 8px;
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.subt{
+  text-align: center;
+  padding-top: 30px;
+}
+.min{
+  width: 30%;
+  padding-top: 45px;
+  padding-bottom: 15px;
+}
+.sez{
+  margin: auto;
+  width: 70%;
+}
+.sez2{
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 40px;
+}
+.subtitle{
+  font-size: 30px;
+  color: green;
+  padding-bottom: 10px;
+}
+.min{
+  height: 200px;
+  width: auto;
+}
+.imgleft{
+  width: 50%;
+  float: left;
+  padding-top: 100px;
+  padding-left: 400px;
+}
+.sez2 > hr{
+  margin: auto;
+  width: 10%;
+  margin-bottom: 10px;
+}
+.textright{
+  width: 25%;
+  float: left;
+  padding-left: 80px;
+  padding-top: 180px;
+}
+.testo{
+  font-size: 34px;
+}
+.testo2{
+  font-size: 19px;
+  color: grey;
+}
+.textright > a{
+  color: #458cf7;
+}
+.dubbi{
+  padding-left: 190px;
+  padding-top: 40px;
+}
+.dubbi > h2{
+  color: white;
+  font-size: 33px;
+}
+.dubbi > p{
+  color: grey;
+}
+.faq{
+  text-decoration: none;
+  color: yellow;
 }
