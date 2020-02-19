@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #334f9c;
+}
+nav{
+  margin: auto;
+  width: 70%;
+  height: 80px;
+}
+header{
+  margin-top: 5px;
+  background-color: #334f9c;
+}
+header:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+.navig{
+  display: inline-block;
+  font-size: 20px;
+  padding: 18px;
+}
+.inizio{
+  width: 50%;
+  height:400px;
+  background-color: green;
+  float: left;
+}
+.sec{
+  background-color: red;
+  width: 100%;
+  height: 400px;
+}
+article{
+  height: 400px;
+  width: 70%;
+  margin: auto;
+}
+article::after{
+
+}
+.immagine{
+  float: right;
+  width: 50%;
+  height: 400px;
+  background-image: url(/bundles/fluentifypublic/images/r4b/01/oldman.png);
+}
+.prefot{
+  width: 100%;
+  height: 150px;
+  background-color: grey;
+}
+footer{
+  width: 100%;
+  background-color: purple;
+  height: 400px;
+}
+.fin{
+  float: left;
+  height: 400px;
+  width: 50%;
+  background-color: yellow;
+}
+.uno{
+  float: left;
+  margin-right: 25px;
+}
+.due{
+  float: left;
+
+}
+.tre{
+  float: right;
+}
