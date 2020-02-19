@@ -58,14 +58,12 @@ article{
 }
 footer{
   width: 100%;
-  background-color: purple;
   height: 400px;
 }
 .fin{
   float: left;
   height: 400px;
   width: 50%;
-  background-color: yellow;
 }
 .uno{
   float: left;
@@ -88,6 +86,9 @@ footer{
 .navig a{
   text-decoration: none;
   color: white;
+}
+.navig a:hover{
+  color: yellow;
 }
 h1{
   color: white;
@@ -176,4 +177,42 @@ h1{
 .faq{
   text-decoration: none;
   color: yellow;
+}
+.faq:hover{
+  text-decoration: underline;
+}
+.leftfine{
+  padding-left: 250px;
+}
+.tagghi{
+  text-decoration: none;
+  color: grey;
+}
+.leftfine > li{
+  padding-top: 15px;
+  font-size: 20px;
+}
+.leftfine > h3{
+  color: white;
+  padding-top: 20px;
+}
+ul{
+  list-style-type: none;
+}
+.tagghi:hover{
+  text-decoration: underline;
+}
+.tel{
+  text-align: right;
+  padding-right: 500px;
+  padding-top: 20px;
+}
+.tel > h2{
+  color: white;
+  padding-bottom: 18px;
+}
+.tel > p{
+  color: grey;
+  font-size: 18px;
+  padding-bottom: 5px;
 }
