@@ -67,7 +67,6 @@ ul{
   float: right;
 }
 
-
 .acca1{
   font-size: 40px;
   padding-top: 45px;
@@ -204,22 +203,18 @@ ul{
   float: left;
 }
 .min{
-  height: 200px;
-  width: auto;
-  width: 30%;
   padding-top: 45px;
   padding-bottom: 15px;
 }
-
 /* classi navig */
+.navig a{
+  text-decoration: none;
+  color: white;
+}
 .navig{
   display: inline-block;
   font-size: 20px;
   padding: 18px;
-}
-.navig a{
-  text-decoration: none;
-  color: white;
 }
 .navig a:hover{
   color: yellow;
